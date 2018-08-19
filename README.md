@@ -17,7 +17,7 @@ The program adds all correct answers and gives a total score after user clicks s
     Output Example: 20 
 
 ## Link to live site
-   https://peet-pitz.github.io/Triangle-Tracker/
+   https://peet-pitz.github.io/Quiz-Board/
 
 ## Technologies Used
 JavaScript
