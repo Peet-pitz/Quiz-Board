@@ -12,8 +12,8 @@ $("button").click(function() {
     $("#result-showing").toggle();
     $("#quiz-hidden").toggle();
 });
-// $("quiz").hide();
-// $("btn").show();
+$("form#quiz").hide();
+$("#result").show();
 event.preventDefault();
 });
 });

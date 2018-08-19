@@ -1,13 +1,41 @@
 h1 {
-    color: royalblue;
     font-style: italic;
     text-align: justify;
-}
-#result {
-  display: none;
 }
 .test-box {
     border: 2px;
     padding: 6px;
     margin: 20px;
+}
+.btn {
+    background-color: rgb(0, 94, 8);
+    border: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+}
+
+body {
+    background-image: url('../img/code.jpeg');
+}
+#result {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    display: block;
+    
+}
+p {
+    background-color: antiquewhite;
+    color: black;
+    padding: 15px 32px;
+    font-style: unset;
+}
+.jumbotron {
+    background-clip: border-box;
+    background-color: rgb(0, 94, 8);
+    color: whitesmoke;
 }
