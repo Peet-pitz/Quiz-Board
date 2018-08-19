@@ -8,8 +8,12 @@ var q5= $("input:radio[name=q5]:checked").val();
 var result=parseInt(q1)+parseInt(q2)+parseInt(q3)+parseInt(q4)+parseInt(q5);
 $("#result").text("You got "+result);
 
-$(".quiz").hide();
-$(".answer").show();
+$("button").click(function() {
+    $("#result-showing").toggle();
+    $("#quiz-hidden").toggle();
+});
+// $("quiz").hide();
+// $("btn").show();
 event.preventDefault();
 });
 });

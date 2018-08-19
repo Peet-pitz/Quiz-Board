@@ -1,0 +1,13 @@
+h1 {
+    color: royalblue;
+    font-style: italic;
+    text-align: justify;
+}
+#result {
+  display: none;
+}
+.test-box {
+    border: 2px;
+    padding: 6px;
+    margin: 20px;
+}
